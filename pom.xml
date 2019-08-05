@@ -22,6 +22,8 @@
         <module>prototype-sercvice-ribbon</module>
         <module>prototype-service-feign</module>
         <module>prototype-service-zuul</module>
+        <module>prototype-config-server</module>
+        <module>prototype-config-client</module>
     </modules>
 
     <properties>
