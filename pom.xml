@@ -24,6 +24,7 @@
         <module>prototype-service-zuul</module>
         <module>prototype-config-server</module>
         <module>prototype-config-client</module>
+        <module>prototype-service-gateway</module>
     </modules>
 
     <properties>
