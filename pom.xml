@@ -19,7 +19,7 @@
     <modules>
         <module>prototype-eureka-server</module>
         <module>prototype-eureka-client</module>
-        <module>prototype-sercvice-ribbon</module>
+        <module>prototype-service-ribbon</module>
         <module>prototype-service-feign</module>
         <module>prototype-service-zuul</module>
         <module>prototype-config-server</module>

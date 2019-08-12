@@ -1,0 +1,16 @@
+server:
+  port: 8769
+spring:
+  profiles: peer2
+  application:
+    name: eureka-server-peer2
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: false
+    instance-id: localhost:${server.port}:${spring.application.name}
+  client:
+    service-url:
+      defaultZone: http://${spring.cloud.client.ip-address}:8761/eureka/,http://127.0.0.1:8770/eureka/
+    register-with-eureka: false
+    fetch-registry: false
